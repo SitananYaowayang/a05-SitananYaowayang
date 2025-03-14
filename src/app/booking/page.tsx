@@ -8,11 +8,11 @@ export default function bookings(){
             <div className="text-md text-left text-gray-600">
             ชื่อและนามสกุลผู้จอง
             </div>
-            <TextField name="Name-Lastname" label="Name-Lastname"></TextField>
+            <TextField variant="standard" name="Name-Lastname" label="Name-Lastname"></TextField>
             <div className="text-md text-left text-gray-600">
             หมายเลขติดต่อ
             </div>
-            <TextField name=" Contact-Number" label="Contact-Number"></TextField>
+            <TextField variant="standard" name=" Contact-Number" label="Contact-Number"></TextField>
             <div className="text-md text-left text-gray-600">
             ประเภท Venue
             </div>
